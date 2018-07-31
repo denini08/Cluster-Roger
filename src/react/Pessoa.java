@@ -4,7 +4,7 @@ public class Pessoa {
 	private String nome;
 	private String tipo;
 	private boolean[] respostas;
-	
+	public  EnumClassificacao classificacao;
 	
 	public Pessoa(String nome, boolean[] r) {
 		this.nome = nome;
@@ -28,7 +28,7 @@ public class Pessoa {
 	}
 	
 	public void definir() {
-		System.out.println("nome:" + this.nome);
+		//System.out.println("nome:" + this.nome);
 		//PAGINA 15
 		
 		String def = "";
@@ -81,6 +81,6 @@ public class Pessoa {
 		}
 		
 		this.tipo = def;
-		System.out.println("String: " + def + "\n");
+		//zSystem.out.println("String: " + def + "\n");
 	}
 }
