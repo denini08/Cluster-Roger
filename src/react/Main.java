@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Main {
 
 	public static void main(String[] args) {
-		 	String csvFile = "C:\\Users\\anderson\\Desktop\\o\\Cluster-Roger\\data\\Roger_Verdier.csv";
+		 	String csvFile = "C:\\Roger_Verdier93.csv";
 	        BufferedReader br = null;
 	        String line = "";
 	        String cvsSplitBy = ",";
@@ -48,7 +48,8 @@ public class Main {
 	            System.out.println("Quantidade de pessoas analizadas "+ qnd_pessoas);
                     cluster.setQuantidadePessoas(qnd_pessoas);
 	            cluster.PrintArrays();
-                    cluster.agrupar(11);
+                    cluster.agrupar(29
+                    		);
 
 	        } catch (Exception e) {
 	            e.printStackTrace();
